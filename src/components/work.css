@@ -1,0 +1,164 @@
+h1 {
+    color: #000000;
+    font-size: 50px;
+    padding-top: 20px;
+    margin-left: 10%;
+    font-weight: 500;
+  }
+  @media (max-width: 1240px) {
+    h1 {
+      font-size: 4vw;
+    }
+  }
+  @media only screen and (max-width: 750px) {
+    h1 {
+      font-size: 30px;
+    }
+  }
+
+  h2 {
+    color: #000000;
+    margin-top: 40px;
+    font-size: 24px;
+    margin-left: 10%;
+    font-weight: 400;
+  }
+
+  h3 {
+    color: #000000;
+    font-size: 16px;
+    margin-left: 10%;
+    font-weight: 300;
+    margin-bottom:60px;
+  }
+  
+  p {
+    margin-top:40px;
+    margin-bottom:40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 2em;
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  .videoDiv{
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+.witpimg{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.witpimage{
+  height: 300px;
+  width: auto;
+  margin: 10px;
+}
+
+.caption{
+  font-style: italic;
+  text-align: center;
+}
+  
+  .main{
+    max-width: 1360px;
+    margin: auto;
+  }
+
+  .maingallery{
+    overflow: hidden;
+    margin-top:60px;
+  }
+  
+  .responsive {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .gallery {
+    float: left;
+    width: 50%;
+  }
+  
+  .desc {
+    font-size: 2rem;
+    font-weight: 500;
+    padding-top: 30px;
+    text-align: center;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  div.gallery:hover {
+    opacity: 80%;
+  }
+  
+  .responsive:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .workpic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-height: 370px;
+    max-width: 500px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  @media only screen and (max-width: 800px) {
+    .gallery {
+      width: 100%;
+      margin: auto;
+      float: center;
+    }
+    
+    .workpic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    }
+}
+
+.carousel{
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .carousel {
+    width: 99%;
+  }
+}
+
+.back-button {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+  margin-right:20px;
+}
+  .back-button:hover {
+    background:rgb(218, 218, 218)
+  }

@@ -1,0 +1,105 @@
+h1 {
+    color: #000000;
+    font-size: 50px;
+    padding-top: 20px;
+    margin-left: 10%;
+    font-weight: 500;
+  }
+  @media (max-width: 1240px) {
+    h1 {
+      font-size: 4vw;
+    }
+  }
+  @media only screen and (max-width: 750px) {
+    h1 {
+      font-size: 30px;
+    }
+  }
+
+
+.contactpage{
+      font-size: 24px;
+      max-width: 50%;
+  }
+
+    @media (max-width: 1240px) {
+    .contactpage {
+      font-size: 2vw;
+    }
+}
+@media (max-width: 960px) {
+    .contactpage {
+        max-width: 80%;
+    }
+}
+
+    @media only screen and (max-width: 800px) {
+        .contactpage {
+          font-size: 16px;
+        }
+      }
+
+  .about{
+    margin-top:60px;
+    line-height: 2em;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  
+  .image{
+    float: right;
+    display: block;
+    max-width: 700px;
+    min-width: 200px;
+    height: auto;
+    padding-right: 10%;
+    padding-left: 100px;
+  }
+  
+  @media (max-width: 1400px) {
+    .image{
+        max-width: 50%;
+    }
+}
+@media (max-width: 960px) {
+    .image{
+        display: none;
+    }
+}
+
+.image-small{
+    max-width:70%;
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right:auto;
+    padding-bottom: 60px;
+}
+@media (min-width:960px){
+    .image-small{
+        display:none;
+    }
+}
+
+
+.email{
+    text-decoration: none;
+    font-weight:400;
+}
+.email:hover{
+    text-decoration: underline;
+    font-weight:400;
+}
+.email:visited{
+    color:#000000
+}
+  a{
+      text-decoration: none;
+  }
+
+.resume:hover{
+    text-decoration: underline;
+}
+.resume:visited{
+    color:#000000
+}

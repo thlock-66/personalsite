@@ -41,15 +41,15 @@ const Banner = () => {
 
 const AnimatedLetters = ({ title, disabled }) => (
   <motion.span
-  className="row-title"
-  variants={disabled ? null : banner}
-  initial="initial"
-  animate="animate"
+    className="row-title"
+    variants={disabled ? null : banner}
+    initial="initial"
+    animate="animate"
   >
     {[...title].map((letter) => (
       <motion.span
-      className="row-letter"
-      variants={disabled ? null : letterAni}
+        className="row-letter"
+        variants={disabled ? null : letterAni}
       >
         {letter}
       </motion.span>
@@ -64,14 +64,14 @@ const BannerRowTop = ({ title }) => {
         <AnimatedLetters title={title} />
       </div>
       <motion.div
-      initial={{ opacity: 0, y: 80 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{
-        ease: "easeInOut",
-        duration: 1,
-        delay: 0.4,
-      }}     
-      className="row-col"
+        initial={{ opacity: 0, y: 80 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{
+          ease: "easeInOut",
+          duration: 1,
+          delay: 0.4,
+        }}
+        className="row-col"
       >
         <span className="row-message">
           Hello! I'm Lock Yin. A product designer with a passion in both UI/UX and hardware design.
@@ -84,11 +84,11 @@ const BannerRowTop = ({ title }) => {
 const BannerRowBottom = ({ title }) => {
   return (
     <div className={"banner-row center"}>
-      <motion.div 
-      initial={{ scale: 0 }}
-      animate={{ scale: 1 }}
-      transition={{ ease: [0.6, 0.01, -0.05, 0.95], duration: 1, delay: 1 }}
-      className="scroll">
+      <motion.div
+        initial={{ scale: 0 }}
+        animate={{ scale: 1 }}
+        transition={{ ease: [0.6, 0.01, -0.05, 0.95], duration: 1, delay: 1 }}
+        className="scroll">
         <motion.span
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -97,7 +97,7 @@ const BannerRowBottom = ({ title }) => {
             duration: 1,
             delay: 1.8,
           }}>
-            /\_/\
+          /\_/\
         </motion.span>
         <motion.span
           initial={{ opacity: 0 }}
@@ -108,6 +108,16 @@ const BannerRowBottom = ({ title }) => {
             delay: 1.8,
           }}>
           =＾● ⋏ ●＾=
+        </motion.span>
+        <motion.span
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{
+            ease: "easeInOut",
+            duration: 1,
+            delay: 1.8,
+          }}>
+          <a href='/resume.docx' download>Resume</a>
         </motion.span>
       </motion.div>
       <AnimatedLetters title={title} />

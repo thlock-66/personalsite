@@ -10,8 +10,8 @@ const container = {
   },
 };
 
-const item ={
-  hidden: {opacity: 0, y: 200 },
+const item = {
+  hidden: { opacity: 0, y: 200 },
   show: {
     opacity: 1,
     y: 0,
@@ -46,12 +46,12 @@ const Loader = ({ setLoading }) => {
   return (
     <div className="loader">
       <motion.div
-      className= "loader-inner"
-      variants={container}
-      initial="hidden"
-      animate="show"
-      exit="exit"
-      onAnimationComplete={() => setLoading(false)}
+        className="loader-inner"
+        variants={container}
+        initial="hidden"
+        animate="show"
+        exit="exit"
+        onAnimationComplete={() => setLoading(false)}
       >
         <ImageBlock variants={item} id='image-1' />
         <motion.div variante={itemMain} className='transition-image'>
@@ -71,9 +71,9 @@ const Loader = ({ setLoading }) => {
 
 export const ImageBlock = ({ id, variants }) => {
   return (
-    <motion.div 
-    className={`image-block ${id}`}
-    variants={variants}>
+    <motion.div
+      className={`image-block ${id}`}
+      variants={variants}>
       <Image
         src={process.env.PUBLIC_URL + `/images/${id}.jpg`}
         fallback={process.env.PUBLIC_URL + `/images/${id}.jpg`}

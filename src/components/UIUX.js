@@ -1,11 +1,11 @@
 import Header from "./Header";
 import './work.css';
 import { motion } from "framer-motion";
-import icecream from "./img/ice-cream.jpg";
 import { Link } from "react-router-dom";
 import ncs1 from "./img/ncs1.png";
 import ncs3 from "./img/ncs3.png";
 import ncs4 from "./img/ncs4.png";
+import graphene from "./img/graphene.png";
 
 export default function UIUX() {
     return (
@@ -39,9 +39,9 @@ export default function UIUX() {
                         <img src={ncs1} width="100%" alt="ncs1" />
                     </div>
                     <br /><br />
-                    I developed and improved the user experience for our robotic nurse assistant for patients in hospitals, from the flow of interactions between patient and robot, designing robot UI screens on Figma and AfterEffects, to development in Python.
+                    I developed and improved the user experience for our robotic nurse assistant for patients in hospitals, from the flow of interactions between patient and robot, designing robot UI screens on Figma and AfterEffects, to development in Python. I also wireframed a new UI for our robot navigation software in Figma, improving the current UI based on user feedback and worked with front-end developers to ensure the product is built as designed.
                     <br /><br />
-                    I also participated in the IMDA Open Innovation Challenge for Elderly Smart Home Solutions. We went through the whole design thinking process, coming up with personas for different elderly and staff based on previous interviews and market research, to create a solution focused on both mental and physical well-being of the elderly. I modelled the robot companion solution in Fusion360, designing expressions for engagement and interactivity, and also created the accompanying phone app mockup in Figma for demo purposes.
+                    I also participated in the IMDA Open Innovation Challenge for Elderly Smart Home Solutions. Using the design thinking process and in-depth user research and market research, we came up with a solution focused on both the mental and physical well-being of the elderly. I modelled the robot companion solution in Fusion360, designing expressions for engagement and interactivity, and also created the accompanying phone app mockup in Figma for demo purposes.
                     <br /><br />
                     <div className="videoDiv">
                         <img src={ncs3} width="50%" alt="ncs3" />
@@ -54,25 +54,17 @@ export default function UIUX() {
                 </p>
                 <br />
                 <h2>
-                    uiux internship: graphene (summer 2020)
+                    ui/ux internship: graphene (summer 2020)
                 </h2>
                 <p>
                     A summer internship at Graphene Services, an AI-powered market research company. Designed the interface and user experience for their new website, and did market research and product design for a new collaborative task delegation app.
                     <br /><br />
                     Software used: Adobe AfterEffects, Invision Studio, Figma
-                </p>
-                <br />
-                <h2>
-                    personal project: ice cream recipe mobile app (summer 2019)
-                </h2>
-                <p>
-                    A personal project of an ice cream recipe mobile app, that came about from a particular hot summer where I was experimenting with different desserts and having trouble finding recipes to make use of my leftover ingredients.
                     <br /><br />
-                    Mini project made to learn Adobe XD and auto-animate features.
+                    <div className="videoDiv">
+                        <img src={graphene} width="100%" alt="graphene" />
+                    </div>
                 </p>
-                <div className="videoDiv">
-                    <img src={icecream} width="100%" alt="icecream" />
-                </div>
                 <br />
             </motion.div>
         </div>

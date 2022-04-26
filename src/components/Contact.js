@@ -22,7 +22,7 @@ export default function Contact() {
           2020 Renaissance Engineering Programme graduate from Nanyang Technological University. <br />
           BSc. Mechanical Engineering & M.S. Technological Management.<br />
           In my free time, I enjoy photography, travelling, bouldering, and learning new languages. <br />
-          I am currently learning front-end development
+          Currently learning front-end development!
           <br />
           <br />
           Contact me:
@@ -31,7 +31,7 @@ export default function Contact() {
           <a className="email" href="mailto:tlockyin@gmail.com">tlockyin@gmail.com </a><br />
           <a className="email" href="https://linkedin.com/in/lockyin">linkedin.com/in/lockyin </a><br /> <br />
 
-          <a className="resume" href='/resume.docx' download>Resume</a>
+          <a className="resume" href='/resume.pdf' download>Resume</a>
         </p>
         <img class="image-small" src={profpic} alt="profilepic2" />
       </motion.div>

@@ -39,6 +39,7 @@ const Header = () => {
           <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
             <li><Link className="dropdown-item" to="/work">Work</Link></li>
             <li><Link className="dropdown-item" to="/photography">Photography</Link></li>
+            <li className="contact1"><Link className="dropdown-item" to="/contact">Contact</Link></li>
           </ul>
         </div>
       </div>

@@ -2,6 +2,7 @@ import Header from "./Header";
 import './contact.css';
 import { motion } from "framer-motion";
 import profpic from "./img/profpic.jpg";
+import resumepdf from './img/Resume.pdf';
 
 export default function Contact() {
   return (
@@ -22,7 +23,7 @@ export default function Contact() {
           2020 Renaissance Engineering Programme graduate from Nanyang Technological University. <br />
           BSc. Mechanical Engineering & M.S. Technological Management.<br />
           In my free time, I enjoy photography, travelling, bouldering, and learning new languages. <br />
-          Currently learning front-end development!
+          Currently learning front-end development! This website was created in React.
           <br />
           <br />
           Contact me:
@@ -30,8 +31,6 @@ export default function Contact() {
 
           <a className="email" href="mailto:tlockyin@gmail.com">tlockyin@gmail.com </a><br />
           <a className="email" href="https://linkedin.com/in/lockyin">linkedin.com/in/lockyin </a><br /> <br />
-
-          <a className="resume" href='/resume.pdf' download>Resume</a>
         </p>
         <img class="image-small" src={profpic} alt="profilepic2" />
       </motion.div>

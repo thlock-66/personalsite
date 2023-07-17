@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import resumepdf from './img/Resume.pdf';
 
 const banner = {
   animate: {
@@ -117,7 +118,7 @@ const BannerRowBottom = ({ title }) => {
             duration: 1,
             delay: 1.8,
           }}>
-          <a href='/resume.docx' download>Resume</a>
+          <a href={resumepdf} download>Resume</a>
         </motion.span>
       </motion.div>
       <AnimatedLetters title={title} />

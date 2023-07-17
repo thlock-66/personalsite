@@ -32,7 +32,7 @@ export default function WITP() {
                     delay: 0.6,
                 }}>
                 <p>
-                    walk-in-the-PARK was the result of a product design group project, aimed to simplify the driving process by making parking a seamless process. The idea sprouted from the frustration of finding street parking in crowded cities such as San Francisco, and the confusing street parking signs that have led to avoidable parking tickets.
+                    walk-in-the-PARK was the result of a product design group project at UC Berkeley, aimed to simplify the driving process by making parking a seamless process. The idea sprouted from the frustration of finding street parking in crowded cities such as San Francisco, and the confusing street parking signs that have led to avoidable parking tickets.
                     <br />
                 </p>
                 <div className="videoDiv">

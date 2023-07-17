@@ -2,6 +2,8 @@ import Header from "./Header";
 import './work.css';
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import gdesign6 from './img/gdesign1.jpg';
+import gdesign7 from './img/flights.png';
 
 export default function Gdesign() {
     return (
@@ -30,12 +32,13 @@ export default function Gdesign() {
                     <div className="column">
                         <img src="https://cdn.glitch.com/26f8490e-80fc-419b-8f0f-f1950bd52101%2FBurgers.jpg?v=1599107392134" alt="1" />
                         <img src="https://cdn.glitch.com/26f8490e-80fc-419b-8f0f-f1950bd52101%2Fpeaches.jpg?v=1599107424652" alt="2" />
-                        <img src="https://cdn.glitch.com/26f8490e-80fc-419b-8f0f-f1950bd52101%2Fbmt.jpg?v=1599107692251" alt="3" />
+                        <img src={gdesign7} alt="7" />
                     </div>
                     <div className="column">
+                        <img src={gdesign6} alt="6" />
                         <img src="https://cdn.glitch.com/26f8490e-80fc-419b-8f0f-f1950bd52101%2FNamecards%20Stack.jpg?v=1599107403704" alt="4" />
-                        <img src="https://cdn.glitch.com/26f8490e-80fc-419b-8f0f-f1950bd52101%2Fviking%20card.jpg?v=1599107421729" alt="5" />
-                        <img src="https://cdn.glitch.com/26f8490e-80fc-419b-8f0f-f1950bd52101%2Ffishes.jpg?v=1599107394534" alt="6" />
+                        {/*<img src="https://cdn.glitch.com/26f8490e-80fc-419b-8f0f-f1950bd52101%2Fviking%20card.jpg?v=1599107421729" alt="5" />*/}
+
                     </div>
                     <p><br /><br /><br /></p>
                 </div>

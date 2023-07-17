@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import work1 from './img/work1.jpg';
 import work2 from './img/work2.jpg';
 import work3 from './img/work3.jpg';
-import work4 from './img/work4.jpg';
 import work5 from './img/work5.jpg';
 
 export default function Work() {
@@ -28,7 +27,7 @@ export default function Work() {
               <Link to="/uiux">
                 <img src={work1} className="workpic" alt="ui/ux" />
               </Link>
-              <div className="desc">UI/UX Projects</div>
+              <div className="desc">UI/UX Work</div>
             </div>
           </div>
           <div className="gallery">
@@ -44,7 +43,7 @@ export default function Work() {
               <Link to="/witp">
                 <img src={work3} className="workpic" alt="walk-in-the-park" />
               </Link>
-              <div className="desc">walk-in-the-PARK</div>
+              <div className="desc">Product Design Project: Walk-in-the-PARK</div>
             </div>
           </div>
           <div className="gallery">
@@ -53,14 +52,6 @@ export default function Work() {
                 <img src={work5} className="workpic" alt="FYP" />
               </Link>
               <div className="desc">Final Year Project: Silicone 3D Printing</div>
-            </div>
-          </div>
-          <div className="gallery">
-            <div className="content">
-              <Link to="/smartmirror">
-                <img src={work4} className="workpic" alt="Smart Mirror" />
-              </Link>
-              <div className="desc">Smart Mirror</div>
             </div>
           </div>
         </motion.div>

@@ -57,7 +57,7 @@ const Loader = ({ setLoading }) => {
         <motion.div variante={itemMain} className='transition-image'>
           <motion.img
             layoutId="main-image-1"
-            src={process.env.PUBLIC_URL + `/images/image-2.jpg`}
+            src={process.env.PUBLIC_URL + `/images/image-6.jpg`}
             alt='random alt'
           />
         </motion.div>

@@ -17,9 +17,6 @@ const Header = () => {
         <div className="logo"><Link to="/" style={{ color: 'black', textDecoration: 'none' }}>Lock Yin</Link></div>
         <nav className="nav">
           <li>
-            <Link to="/work">Work</Link>
-          </li>
-          <li>
             <Link to="/photography">Photography</Link>
           </li>
         </nav>

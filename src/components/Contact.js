@@ -29,6 +29,8 @@ export default function Contact() {
           Contact me:
           <br />
 
+          Work portfolio:&nbsp;
+          <a className="email" href="https://portfolio2023-e9cb5.web.app/">https://portfolio2023-e9cb5.web.app/ </a><br />
           <a className="email" href="mailto:tlockyin@gmail.com">tlockyin@gmail.com </a><br />
           <a className="email" href="https://linkedin.com/in/lockyin">linkedin.com/in/lockyin </a><br /> <br />
         </p>

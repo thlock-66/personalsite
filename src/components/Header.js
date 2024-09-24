@@ -17,7 +17,10 @@ const Header = () => {
         <div className="logo"><Link to="/" style={{ color: 'black', textDecoration: 'none' }}>Lock Yin</Link></div>
         <nav className="nav">
           <li>
-            <Link to="/photography">Photography</Link>
+            <Link to="/photography">Personal</Link>
+          </li>
+          <li>
+            <Link to="/photography2">Event</Link>
           </li>
         </nav>
         <div className="contact">

@@ -35,7 +35,7 @@ const Banner = () => {
     <motion.div className="banner" variants={banner}>
       <BannerRowTop title={"lock yin"} />
       <BannerRowCenter title={"uiux·designer"} playMarquee={playMarquee} />
-      <BannerRowBottom title={"engineer"} />
+      <BannerRowBottom title={"photographer"} />
     </motion.div>
   );
 };
@@ -75,7 +75,7 @@ const BannerRowTop = ({ title }) => {
         className="row-col"
       >
         <span className="row-message">
-          Hello! I'm Lock Yin. A product designer with a passion in both UI/UX and hardware design.
+          Hello! I'm Lock Yin. A UX designer with a passion for photography and climbing.
         </span>
       </motion.div>
     </div>

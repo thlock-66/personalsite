@@ -2,7 +2,6 @@ h1 {
   color: #000000;
   font-size: 50px;
   padding-top: 20px;
-  margin-left: 10%;
   font-weight: 500;
 }
 
@@ -22,6 +21,13 @@ h1 {
 .contactpage {
   font-size: 24px;
   max-width: 50%;
+  margin-left: 80px;
+}
+
+@media (max-width: 1440px) {
+  .contactpage {
+    margin-left: 72px;
+  }
 }
 
 @media (max-width: 1240px) {
@@ -39,6 +45,21 @@ h1 {
 @media only screen and (max-width: 800px) {
   .contactpage {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    margin-left: 72px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    margin-left: 16px !important;
+  }
+  .contactpage {
+    margin-left: 16px;
   }
 }
 

@@ -28,3 +28,21 @@
 .maingallery {
   margin-bottom: 40px;
 }
+
+h1 {
+  margin-left: 80px;
+  margin-bottom: 24px;
+
+  @media screen and (max-width: 1440px) {
+    margin-left: 72px;
+        }
+
+  @media screen and (max-width: 600px) {
+    margin-left: 32px;
+        }
+
+        @media screen and (max-width: 480px) {
+          margin-left: 16px;
+              }
+}
+
